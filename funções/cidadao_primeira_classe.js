@@ -44,7 +44,7 @@ const oper = {
     '+': (a, b) => a + b,
     '-': (a, b) => a - b,
     '*': (a, b) => a * b,
-    '/': (a, b) => a / b,
+    '/': (a, b) => a / b
 }
 
 const applyOper = (a, b, _oper) => console.log(oper[_oper](a, b))
