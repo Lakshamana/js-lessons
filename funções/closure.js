@@ -7,10 +7,10 @@ const that = this
 function fora() {
     const x = 'Local'
     function dentro() {
-        return that.x
+        return this
     }
-    return dentro
+    console.log(dentro())
 }
 
-const fn = fora()  //fora() = dentro, logo fn = dentro, logo fn() = dentro()
-console.log(fn())
+const fn = fora  //fora() = dentro, logo fn = dentro, logo fn() = dentro()
+fn()
