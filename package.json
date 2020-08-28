@@ -1,0 +1,21 @@
+{
+  "name": "js-lessons",
+  "version": "1.0.0",
+  "description": "",
+  "main": "serverTeste.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lakshamana/js-lessons.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lakshamana/js-lessons/issues"
+  },
+  "homepage": "https://github.com/Lakshamana/js-lessons#readme",
+  "dependencies": {
+    "koa": "^2.11.0",
+    "koa-router": "^8.0.8"
+  }
+}
